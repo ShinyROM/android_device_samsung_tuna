@@ -1,0 +1,6 @@
+#
+# system.prop for all tuna-based devices
+#
+
+# Don't preload EGL drivers in Zygote at boot time.
+ro.zygote.disable_gl_preload=true 
