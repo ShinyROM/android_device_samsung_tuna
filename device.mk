@@ -102,8 +102,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-        Nfc \
-        Tag
+        Nfc
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
