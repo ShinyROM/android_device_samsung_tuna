@@ -93,3 +93,6 @@ BOARD_SEPOLICY_DIRS := \
 BOARD_SEPOLICY_UNION := \
         genfs_contexts \
         file_contexts
+
+# Call for special CFlags in SurfaceFlinger.cpp
+TARGET_USES_OPENGLES_FOR_SCREEN_CAPTURE := true
